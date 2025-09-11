@@ -1,0 +1,8 @@
+name = input("What is your name?")
+print(f"Hello {name} and welcome to CT8")
+emotion = input("What emotion can describe your day today")
+print(f"Well I have never felt {emotion} in my life")
+team = input("What is your favorite Seattle sports {team}?")
+print(f"Well I hate the {team} I think they're a bunch of loser's!")
+player = input(f"What is your favorite {player} on that team?")
+print(f"Oh {player},I love that guy I wish we could trade him to put him out of his misery!")
