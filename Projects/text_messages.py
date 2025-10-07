@@ -9,7 +9,7 @@ print(f"Oh {player},I love that guy but I know he doesn't want to be on your tea
 vacation = input("What is your dream vacation")
 print(f"Ok,{vacation} is a cool spot, a lot better than Seattle.")
 book = input("Ok, so my first impressions of you are not very good, but I don't really like anyone from Seattle! Best we switch the subject, what is your favorite book?")
-print("Ok {book}, that's a decent book, well I am reading a book on anti-gravity")
+print(f"Ok {book}, that's a decent book, well I am reading a book on anti-gravity")
 print("I can't put it down ha ha ha")
 college = input("Geez, why didn't you laugh! I can't with you, what's your dream college, lemme guess, Carroll Community College.")
 print(f"Oh {college}, that's a pretty nice place, well get good grades, stay out of trouble, and lock in!")
