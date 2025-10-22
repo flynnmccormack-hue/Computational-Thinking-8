@@ -2,14 +2,13 @@
 # ### SETUP ###
 import turtle
 # ###############################################
-turtle.Screen().bgcolor("teal")#I did this color because it was a mariners color and nothing blended in
+turtle.Screen().bgcolor("MidnightBlue")#I changed this color so that you could see everything clearly.
 t = turtle.Turtle()
 t.speed(10)
 t.penup()
 t.goto(-250, 10)#perfect
-t.color("blue")
+t.color("PaleGreen")
 t.pendown()
-
 t.forward(100)
 t.left(72)
 t.forward(100)
@@ -33,7 +32,7 @@ t.forward(100)
 t.left(72)
 t.forward(100)
 t.left(72)
-t.forward(100)
+t.forward(100)#I made these two shapes for eyes
 
 t = turtle.Turtle()
 t.penup()
@@ -43,7 +42,7 @@ t.pendown()
 t.left(350)
 t.forward(175)
 t.left(20)
-t.forward(175)
+t.forward(175)#This was my smile
 
 t = turtle.Turtle()
 t.penup()
@@ -77,8 +76,8 @@ t.left(90)
 t.forward(40)
 t=turtle.Turtle()
 t.penup()
-t.goto(5,230)
-t.write("Go #29!",font = ("Arial", 40, "normal"))
+t.goto(-90,180)
+t.write("Go #29!",font = ("Arial", 40, "normal"))#Cal raleigh's number!
 
 # ###############################################
 # ### ENDING ###
