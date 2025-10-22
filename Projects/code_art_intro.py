@@ -2,7 +2,7 @@
 # ### SETUP ###
 import turtle
 # ###############################################
-
+turtle.Screen().bgcolor("teal")#I did this color because it was a mariners color and nothing blended in
 t = turtle.Turtle()
 t.speed(10)
 t.penup()
@@ -37,13 +37,49 @@ t.forward(100)
 
 t = turtle.Turtle()
 t.penup()
-t.goto(-180,-140)
+t.goto(-180,-50)
 t.color("Silver")
 t.pendown()
 t.left(350)
 t.forward(175)
-t.left(15)
+t.left(20)
 t.forward(175)
+
+t = turtle.Turtle()
+t.penup()
+t.goto(-150,-150)
+t.write("Go Mariners!",font = ("Arial", 40, "normal"))
+
+t= turtle.Turtle()
+t.penup()
+t.goto(-150,230)
+t.pendown()
+t.right(75)
+t.forward(40)
+t.left(90)
+t.forward(40)
+t.left(90)
+t.forward(40)
+t.left(90)
+t.forward(40)
+
+t= turtle.Turtle()
+t.penup()
+t.goto(150,230)
+t.pendown()
+t.right(75)
+t.forward(40)
+t.left(90)
+t.forward(40)
+t.left(90)
+t.forward(40)
+t.left(90)
+t.forward(40)
+t=turtle.Turtle()
+t.penup()
+t.goto(5,230)
+t.write("Go #29!",font = ("Arial", 40, "normal"))
+
 # ###############################################
 # ### ENDING ###
 turtle.exitonclick()
